@@ -6,9 +6,9 @@ This application is a tool for parents who teach their children to count.
 ( 1 through 100, addition)
 
 Features:
-clean design (include focus mode)
-smooth increase in complexity
-additional tasks
+* clean design (include focus mode)
+* smooth increase in complexity
+* additional tasks
 
 You can find the full version on google play.
 
