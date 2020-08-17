@@ -11,6 +11,7 @@ Features:
 * additional tasks
 
 You can find the full version on google play.
+
 https://play.google.com/store/apps/details?id=com.gmail.uia059466.simplemath
 
 Screenshots
