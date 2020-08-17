@@ -1,0 +1,58 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorSecondary">@color/greenDark</item>
+        <item name="colorOnSecondary">@color/boring_white</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorError">@color/color_error</item>
+        <item name="colorOnError">@color/color_on_error</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorOnSurface">@color/color_on_surface</item>
+        <item name="android:colorBackground">@color/boring_white</item>
+        <item name="colorOnBackground">@color/on_white_boring</item>
+        <item name="android:statusBarColor">@color/color_status_bar</item>
+        <item name="toolbarStyle">@style/Widget.Math.Toolbar</item>
+    </style>
+
+    <style name="Widget.Math.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:paddingEnd">8dp</item>
+        <item name="popupTheme">@style/AppTheme.PopupTheme</item>
+        <item name="titleTextAppearance">@style/TextAppearance.IOSched.ToolbarTitle</item>
+        <item name="iconTint">@color/app_bar_icon_tint_boring</item>
+    </style>
+
+    <style name="AppTheme.PopupTheme" parent="ThemeOverlay.Math.Light" />
+    <style name="ThemeOverlay.Math.Light" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="colorSurface">@color/color_surface</item>
+    </style>
+    <style name="TextAppearance.IOSched.ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+    </style>
+
+    <style name="fast_game_fab" parent="Widget.Design.FloatingActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/material_layout_keylines_screen_edge_margin</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:src">@drawable/ic_arrow_forward</item>
+        <item name="backgroundTint">@color/fab_background</item>
+        <item name="fabSize">mini</item>
+        <item name="tint">@color/fab_tint</item>
+        <item name="rippleColor">@color/fab_ripple_color</item>
+    </style>
+
+    <style name="ruler_game_fab" parent="Widget.Design.FloatingActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_arrow_forward</item>
+        <item name="backgroundTint">@color/fab_background</item>
+        <item name="fabSize">mini</item>
+        <item name="tint">@color/fab_tint</item>
+        <item name="rippleColor">@color/fab_ripple_color</item>
+    </style>
+
+    <style name="tabletstyle">
+        <item name="android:layout_width">500dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+</resources>

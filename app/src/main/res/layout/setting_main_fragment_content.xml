@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/part_fast_game_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="false"
+        android:focusable="false"
+        android:paddingStart="?attr/listPreferredItemPaddingStart"
+        android:paddingTop="16dip"
+        android:paddingEnd="?attr/listPreferredItemPaddingEnd"
+        android:paddingBottom="16dip">
+
+        <LinearLayout
+            android:id="@+id/img_2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="-4dp"
+            android:gravity="start|center_vertical"
+            android:minWidth="60dp"
+            android:orientation="horizontal"
+            android:paddingTop="4dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="4dp">
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/part_fast_game_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/img_2"
+            android:singleLine="true"
+            android:text="@string/setting_general_fast_game_incl"
+            android:textAppearance="?android:attr/textAppearanceListItem" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/part_fast_game_title_tv"
+            android:layout_alignStart="@id/part_fast_game_title_tv"
+            android:maxLines="5"
+            android:text="@string/setting_general_fast_game_incl_text"
+            android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+            android:textColor="?android:attr/textColorSecondary" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="?attr/listPreferredItemPaddingStart"
+        android:paddingTop="16dip"
+        android:paddingEnd="?attr/listPreferredItemPaddingEnd"
+        android:paddingBottom="16dip">
+
+        <LinearLayout
+            android:id="@+id/img_9"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="-4dp"
+            android:gravity="start|center_vertical"
+            android:minWidth="60dp"
+            android:orientation="horizontal"
+            android:paddingTop="4dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="4dp">
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/is_use_focus_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/img_9"
+            android:singleLine="true"
+            android:text="@string/setting_general_is_use_focus_mode"
+            android:textAppearance="?android:attr/textAppearanceListItem" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/is_use_focus_mode"
+            android:layout_alignStart="@id/is_use_focus_mode"
+            android:maxLines="5"
+            android:text="@string/setting_general_focus_mode_description"
+            android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+            android:textColor="?android:attr/textColorSecondary" />
+
+        <Switch
+            android:id="@+id/is_use_focus_mode_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            tools:checked="true" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="?attr/listPreferredItemPaddingStart"
+        android:paddingTop="16dip"
+        android:paddingEnd="?attr/listPreferredItemPaddingEnd"
+        android:paddingBottom="16dip">
+
+        <LinearLayout
+            android:id="@+id/img_10"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="-4dp"
+            android:gravity="start|center_vertical"
+            android:minWidth="60dp"
+            android:orientation="horizontal"
+            android:paddingTop="4dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="4dp">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/img_10"
+            android:singleLine="true"
+            android:text="@string/setting_general_is_use_ruler"
+            android:textAppearance="?android:attr/textAppearanceListItem" />
+
+        <Switch
+            android:id="@+id/is_use_ruler_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            tools:checked="true" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/light_gray" />
+
+    <LinearLayout
+        android:id="@+id/read_trainer_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:paddingStart="?attr/listPreferredItemPaddingStart"
+        android:paddingTop="16dip"
+        android:paddingEnd="?attr/listPreferredItemPaddingEnd"
+        android:paddingBottom="16dip">
+
+        <LinearLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:gravity="start|center_vertical"
+            android:minWidth="60dp"
+            android:orientation="horizontal"
+            android:paddingTop="4dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="4dp">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:maxWidth="48dp"
+                android:maxHeight="48dp"
+                app:srcCompat="@drawable/ic_readtrainer" />
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/img_9"
+        android:singleLine="true"
+        android:text="@string/setting_general_read_trainer_title"
+        android:textAppearance="?android:attr/textAppearanceListItem" />
+    <TextView
+        android:layout_marginStart="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="5"
+        android:text="@string/setting_general_read_trainer_description"
+        android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+        android:textColor="?android:attr/textColorSecondary" />
+
+
+</LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/about_us_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="?attr/listPreferredItemPaddingStart"
+        android:paddingTop="16dip"
+        android:paddingEnd="?attr/listPreferredItemPaddingEnd"
+        android:paddingBottom="16dip">
+
+        <LinearLayout
+            android:id="@+id/img_5"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="-4dp"
+            android:gravity="start|center_vertical"
+            android:minWidth="60dp"
+            android:orientation="horizontal"
+            android:paddingTop="4dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="4dp">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/img_5"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:text="@string/setting_general_about"
+            android:textAppearance="?android:attr/textAppearanceListItem" />
+    </RelativeLayout>
+</LinearLayout>

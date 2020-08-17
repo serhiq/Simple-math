@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Math trainer</string>
+
+    <string name="main_title_setting">Settings</string>
+    <string name="main_title_fast_game">Learn</string>
+    <string name="main_title_list_lesson">Single game</string>
+    <string name="main_title_app_bar_label">Math trainer</string>
+
+    <string name="game_end_title_error">Incorrect</string>
+    <string name="game_end_title_acc">Correct</string>
+    <string name="game_end_title_speed">Speed</string>
+
+    <!--    Rate Us--><![CDATA[
+    >
+
+
+    ]]>
+    <string name="setting_general_is_use_ruler">Show ruler</string>
+
+    <string name="setting_general_is_use_focus_mode">Focus</string>
+    <string name="setting_general_focus_mode_description">hide help button, hide home button</string>
+
+    <!--main menu-->
+
+    <!--stickers-->
+    <!--    stickers select-->
+    <string name="setting_general_title">Settings</string>
+    <string name="workout_list_title">Lesson</string>
+    <string name="skill_list_title">Skill</string>
+    <string name="game_end_message_excellent">Excellent!</string>
+    <string name="game_end_message_good">Good</string>
+    <string name="game_end_message_try_again">Try again!</string>
+    <string name="speed_label">" s"</string>
+    <string name="skill_say_next">What is the next number?</string>
+    <string name="skill_add_verbal">Verbal addition</string>
+    <string name="from_to">"from %1$s to %2$s"</string>
+    <string name="say_next">"What is the next number?"</string>
+    <string name="say_next_from_1">"What is the next number in one?"</string>
+    <string name="say_next_random">"What is the next number?(random order)"</string>
+    <string name="say_next_from_1_random">"What is the next number in one?(random order)"</string>
+    <string name="add_verbal">"Adding + %1$s"</string>
+    <string name="add_verbal_reverse">"Adding + %1$s, inverse order"</string>
+    <string name="add_verbal_random">"Adding + %1$s, random order"</string>
+    <string name="setting_general_read_trainer_title">Math trainer</string>
+    <string name="setting_general_read_trainer_description">Download a free program for training reading techniques in Russian</string>
+
+    <string name="help_say_next_2">Call the first number to yourself, call the second number out loud.. This exercise makes it easier to master solving examples +%1$s</string>
+    <string name="help_say_next">Say the next number out loud.This exercise makes it easier to master solving examples +%1$s</string>
+    <string name="help_add_verbal">Say the example out loud along with the answer: Two plus one equals three.</string>
+    <string name="help_add_verbal_permute">Say the example out loud along with the answer: Two plus one equals three. Чтобы быстрее и легче считать, применяйте переместительный закон. Мысленно поменяйте слагаемые местами. К большему числу прибавляйте меньшее.</string>
+
+    <string name="setting_fast_game_title">Complex game composition</string>
+    <string name="setting_general_fast_game_incl">Setting the composition of a complex game</string>
+    <string name="setting_general_fast_game_incl_text">specify which games to include</string>
+    <string name="setting_general_about">About</string>
+    <string name="setting_general_about_description">App created with love by Sura..</string>
+
+    <string name="setting_about_app_bar_label">About</string>
+
+</resources>

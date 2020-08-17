@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="?attr/listPreferredItemPaddingStart"
+        android:paddingTop="16dip"
+        android:paddingEnd="?attr/listPreferredItemPaddingEnd"
+        android:paddingBottom="16dip">
+
+        <LinearLayout
+            android:id="@+id/img_7"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="-4dp"
+            android:gravity="start|center_vertical"
+            android:minWidth="60dp"
+            android:orientation="horizontal"
+            android:paddingTop="4dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="4dp">
+
+        </LinearLayout>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/img_7"
+            android:singleLine="true"
+            android:text="@string/skill_say_next"
+            android:textAppearance="?android:attr/textAppearanceListItem" />
+
+        <Switch
+            android:id="@+id/is_use_say_next_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            tools:checked="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingStart="?attr/listPreferredItemPaddingStart"
+        android:paddingTop="16dip"
+        android:paddingEnd="?attr/listPreferredItemPaddingEnd"
+        android:paddingBottom="16dip">
+
+        <LinearLayout
+            android:id="@+id/img_28"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="-4dp"
+            android:gravity="start|center_vertical"
+            android:minWidth="60dp"
+            android:orientation="horizontal"
+            android:paddingTop="4dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="4dp">
+
+        </LinearLayout>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/img_28"
+            android:singleLine="true"
+            android:text="@string/skill_add_verbal"
+            android:textAppearance="?android:attr/textAppearanceListItem" />
+
+        <Switch
+            android:id="@+id/is_use_addition_verbal_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            tools:checked="true" />
+    </RelativeLayout>
+</LinearLayout>
+
+

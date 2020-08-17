@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Simple Math Trainer</string>
+
+    <string name="main_title_setting">Настройки</string>
+    <string name="main_title_fast_game">Быстрый старт</string>
+    <string name="main_title_list_lesson">Отдельные игры</string>
+    <string name="main_title_app_bar_label">Тренажер счета</string>
+
+    <string name="game_end_title_error">Ошибки</string>
+    <string name="game_end_title_acc">Точность</string>
+    <string name="game_end_title_speed">Скорость</string>
+
+    <!--    Rate Us--><![CDATA[
+    >
+
+
+    ]]>
+    <string name="setting_general_is_use_ruler">Показывать линейку</string>
+
+    <string name="setting_general_is_use_focus_mode">Фокус - режим </string>
+    <string name="setting_general_focus_mode_description">скрыть помощь, кнопку домой</string>
+
+    <!--main menu-->
+
+    <!--stickers-->
+    <!--    stickers select-->
+    <string name="setting_general_title">Настройки</string>
+    <string name="workout_list_title">Задания</string>
+    <string name="skill_list_title">Навыки</string>
+    <string name="game_end_message_excellent">Превосходно !</string>
+    <string name="game_end_message_good">Хорошо</string>
+    <string name="game_end_message_try_again">Попробуйте еще</string>
+    <string name="speed_label">" c"</string>
+    <string name="skill_say_next">Назовите следующее число</string>
+    <string name="skill_add_verbal">Устное сложение</string>
+    <string name="from_to">"от %1$s до %2$s"</string>
+    <string name="say_next">"Назови следующее число"</string>
+    <string name="say_next_from_1">"Назови следующее число через одно"</string>
+    <string name="say_next_random">"Назови следующее число, случайный порядок"</string>
+    <string name="say_next_from_1_random">"Назови следующее число через одно, случайный порядок"</string>
+    <string name="add_verbal">"Сложение + %1$s"</string>
+    <string name="add_verbal_reverse">"Сложение + %1$s, обратный порядок"</string>
+    <string name="add_verbal_random">"Сложение + %1$s, случайный порядок"</string>
+    <string name="setting_general_read_trainer_title">Тренажёр Чтения</string>
+    <string name="setting_general_read_trainer_description">Скачайте бесплатную программу для тренировки техники чтения</string>
+
+    <string name="help_say_next_2">Первое число называете про себя, второе число называете вслух. Этот упражнение позволяет легче освоить решение примеров +%1$s</string>
+    <string name="help_say_next">Назовите следующие число вслух. Это упражнение позволяет легче освоить решение примеров +%1$s</string>
+    <string name="help_add_verbal">Проговаривайте пример вслух вместе с ответом Два плюс один равно три</string>
+    <string name="help_add_verbal_permute">Проговаривайте пример вслух вместе с ответом Два плюс один равно три. Чтобы быстрее и легче считать, применяйте переместительный закон. Мысленно поменяйте слагаемые местами. К большему числу прибавляйте меньшее.</string>
+
+    <string name="setting_fast_game_title">Состав комплексной игры</string>
+    <string name="setting_general_fast_game_incl">Настройка состава комплексной игры</string>
+    <string name="setting_general_fast_game_incl_text">укажите какие игры включить</string>
+    <string name="setting_general_about">О программе</string>
+    <string name="setting_general_about_description">Написано с любовью, Сурой.</string>
+
+    <string name="setting_about_app_bar_label">О программе</string>
+
+</resources>

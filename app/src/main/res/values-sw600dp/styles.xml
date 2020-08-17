@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="tabletstyle">
+        <item name="android:layout_width">600dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="fast_game_fab" parent="Widget.Design.FloatingActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/material_layout_keylines_screen_edge_margin</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:src">@drawable/ic_arrow_forward</item>
+        <item name="backgroundTint">@color/fab_background</item>
+        <item name="fabSize">normal</item>
+        <item name="tint">@color/fab_tint</item>
+        <item name="rippleColor">@color/fab_ripple_color</item>
+    </style>
+
+    <style name="ruler_game_fab" parent="Widget.Design.FloatingActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_arrow_forward</item>
+        <item name="backgroundTint">@color/fab_background</item>
+        <item name="fabSize">normal</item>
+        <item name="tint">@color/fab_tint</item>
+        <item name="rippleColor">@color/fab_ripple_color</item>
+    </style>
+</resources>
